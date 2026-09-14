@@ -6,7 +6,7 @@ import PackageDescription
 
 let package = Package(
     name: "AppLovinMediationVerveAdapter",
-    platforms: [.iOS(.v13)],
+    platforms: [.iOS(.v12)],
     products: [
         .library(
             name: "AppLovinMediationVerveAdapter",
@@ -28,8 +28,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AppLovinMediationVerveAdapter",
-            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/verve-adapter/AppLovinMediationVerveAdapter-3.9.1.0.zip",
-            checksum: "70458316bed644b87437880e7958b511e29e00eccd5486e7f19dfacc32ff36f1"
+            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/verve-adapter/AppLovinMediationVerveAdapter-3.9.1.1.zip",
+            checksum: "03d504cc75c051dd0b59a430218bc2f724a4066b4681d26373acfb162f252534"
         )
     ]
 )
