@@ -14,7 +14,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", from: "13.0.0"),
-        .package(url: "https://github.com/vervegroup/hybid-ios-spm-sdk.git", exact: "3.9.2")
+        .package(url: "https://github.com/vervegroup/hybid-ios-spm-sdk.git", exact: "3.9.3")
     ],
     targets: [
         .target(
@@ -28,8 +28,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AppLovinMediationVerveAdapter",
-            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/verve-adapter/AppLovinMediationVerveAdapter-3.9.2.0.zip",
-            checksum: "af4bb0c2caf73f3d779afedc3c8268b031a8c03c31a36cd6987f89125b54957e"
+            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/verve-adapter/AppLovinMediationVerveAdapter-3.9.3.0.zip",
+            checksum: "a9d1b8211f5022bb35646758d91785d9d47387f753aa4f2c4e4f7f0c3ceb09d0"
         )
     ]
 )
